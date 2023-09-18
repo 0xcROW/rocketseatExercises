@@ -1,0 +1,119 @@
+body {
+  margin: 50px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Heebo", sans-serif;
+  font-family: "JetBrains Mono", monospace;
+  background-color: #2f2e41;
+}
+
+/* Header */
+body #header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body #header #logo {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+body #header #navbar {
+  display: flex;
+  gap: 64px;
+  list-style: none;
+}
+
+body #header #navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body #header #navbar a:hover {
+  color: #d7d7d7;
+  transition: 0.2s;
+}
+/* Main */
+body main {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+body main #texto {
+  margin-top: 50px;
+  color: #fff;
+  text-align: center;
+  display: block;
+}
+
+body main #texto #caixaDeTexto {
+  margin-top: 40px;
+  width: 537px;
+  height: auto;
+}
+
+body main #texto h1 {
+  font-weight: 400;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+}
+
+body main #texto p {
+  font-weight: 100;
+  color: #c2c2c2;
+  font-family: sans-serif;
+}
+
+body main #texto span {
+  color: #00bfa6;
+}
+
+/* Footer */
+body footer {
+  position: fixed;
+  width: auto;
+  height: fit-content;
+}
+body footer .footerContent {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: fixed;
+  right: 50%;
+  left: 50%;
+  top: 85%;
+  align-content: center;
+  align-items: center;
+}
+
+body footer #line {
+  padding: 10px;
+}
+
+body footer #footerText {
+  width: 530px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+body footer #footerText a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body footer #footerText a:hover {
+  color: #d7d7d7;
+  transition: 0.2s;
+}
+
+body #footerLock {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+}
