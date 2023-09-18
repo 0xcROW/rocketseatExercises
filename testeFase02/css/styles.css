@@ -77,7 +77,6 @@ body main #texto span {
 body footer {
   position: fixed;
   width: auto;
-  height: fit-content;
 }
 body footer .footerContent {
   display: flex;
